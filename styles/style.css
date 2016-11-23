@@ -46,6 +46,10 @@ header nav a + a {
 
 section {
     background-color: #fff;
+    max-width:calc(100% - 160px);
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px;
 }
 
 li {
@@ -71,6 +75,22 @@ li {
     margin: 0 auto;
 }
 
+.head2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../images/photo-1420496854436-ae64eb61e937.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    height: 480px;
+    padding: 0 50px;
+    width: 100%;
+    max-width:calc(100% - 160px);
+    margin: 0 auto;
+}
+
 .training {
     height: 50px;
     padding:0 20px;
@@ -83,7 +103,12 @@ li {
     font-size: 14px;
 }
 
-.head h1 {
+.head2 .training {
+    border:none;
+}
+
+.head h1,
+.head2 h1{
     width: 100%;
     max-width: 615px;
     margin: 0px 0;
@@ -92,19 +117,17 @@ li {
     text-align: right;
 }
 
-.head a {
+.head2 h1 {
+    color: #fff;
+}
+
+.head a,
+.head2 a {
     display: flex;
     justify-content: flex-end;
     position: relative;
     right: 40px;
     top: 20px;
-}
-
-.intro, .reason {
-    max-width:calc(100% - 160px);
-    width: 100%;
-    margin: 0 auto;
-    padding: 40px;
 }
 
 .reason {
@@ -130,3 +153,10 @@ article {
     text-align: center;
 }
 
+.testimonials > div {
+    font-size: 20px;
+    line-height: 33px;
+    letter-spacing: .5px;
+    margin: 0;
+    padding: 0;
+}
