@@ -44,12 +44,107 @@ header nav a + a {
     margin-left: 22px;
 }
 
-section {
-    background-color: #fff;
+.head2  {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    background-image: url("../images/study.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    height: 480px;
+    padding: 0 50px;
+    width: 100%;
+    max-width:calc(100% - 160px);
+    margin: 0 auto;
+}
+
+.head2 h1 {
+    width: 100%;
+    max-width: 34%;
+    margin: 0px 0;
+    position: relative;
+    font-size: 40px;
+    text-align: right;
+    color: #5defdd;
+}
+
+.promotion {
     max-width:calc(100% - 160px);
     width: 100%;
     margin: 0 auto;
     padding: 40px;
+}
+
+.promotion h3 {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.promotion p {
+    line-height: 30px;
+}
+
+.bonus {
+    font-weight: 800;
+    font-size: 20px;
+    color: #ff3730;
+}
+
+.head3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    background-image: url("../images/rain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    height: 480px;
+    padding: 0 50px;
+    width: 100%;
+    max-width:calc(100% - 160px);
+    margin: 0 auto;
+}
+
+.head3 h1 {
+    width: 100%;
+    max-width: 50%;
+    margin: 0px 30px;
+    position: relative;
+    font-size: 40px;
+    text-align: right;
+    color: #eefff4;
+}
+
+.head3 blockquote {
+    width: 100%;
+    max-width: 50%;
+    margin: 0px 30px;
+    position: relative;
+    font-size: 25px;
+    text-align: right;
+    color: #e7cbff;
+}
+
+.quote {
+    max-width:calc(100% - 160px);
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px;
+    line-height: 30px;
+    letter-spacing: .5px;
+    font-size: 20px;
+}
+
+.author {
+    font-weight: 800;
+    font-size: 16px;
+}
+
+section {
+    background-color: #fff;
 }
 
 li {
@@ -75,20 +170,19 @@ li {
     margin: 0 auto;
 }
 
-.head2 {
+.package {
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    background-image: url("../images/photo-1420496854436-ae64eb61e937.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Montserrat', sans-serif;
-    height: 480px;
-    padding: 0 50px;
-    width: 100%;
-    max-width:calc(100% - 160px);
-    margin: 0 auto;
+    text-align: center;
+    height: 50px;
+    padding:0 20px;
+    margin: 30px 5px;
+    font-weight: 500;
+    border: 1px solid #00BCD4;
+    background-color: #fff;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 14px;
 }
 
 .training {
@@ -103,12 +197,7 @@ li {
     font-size: 14px;
 }
 
-.head2 .training {
-    border:none;
-}
-
-.head h1,
-.head2 h1{
+.head h1 {
     width: 100%;
     max-width: 615px;
     margin: 0px 0;
@@ -117,17 +206,19 @@ li {
     text-align: right;
 }
 
-.head2 h1 {
-    color: #fff;
-}
-
-.head a,
-.head2 a {
+.head a {
     display: flex;
     justify-content: flex-end;
     position: relative;
     right: 40px;
     top: 20px;
+}
+
+.intro, .reason {
+    max-width:calc(100% - 160px);
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px;
 }
 
 .reason {
@@ -151,12 +242,15 @@ article {
     flex-direction:  column;
     align-items: center;
     text-align: center;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 900;
 }
 
-.testimonials > div {
-    font-size: 20px;
-    line-height: 33px;
-    letter-spacing: .5px;
-    margin: 0;
-    padding: 0;
+.questions h1 {
+    max-width:calc(100% - 160px);
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px;
 }
+
